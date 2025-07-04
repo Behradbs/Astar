@@ -1,10 +1,10 @@
 
 
-This MIPS Assembly program calculates the Manhattan distance between a start (`S`) and goal (`G`) point on a 4×4 grid and visualizes the grid using the MARS bitmap display. Walls (`#`), start, and goal are color-coded.
+This MIPS Assembly program calculates the Manhattan distance between a start (S) and goal (G) point on a 4×4 grid and visualizes the grid using the MARS bitmap display. Walls (#), start, and goal are color-coded.
 
 
 1. Open in MARS simulator.
-2. Enable the Bitmap Display tool (set base address to `0x10008000`, unit width/height = 1, display width = 64, height = 64).
+2. Enable the Bitmap Display tool (set base address to 0x10008000, unit width/height = 1, display width = 64, height = 64).
 3. Assemble and run.
 
 - Console: Displays the Manhattan distance.
